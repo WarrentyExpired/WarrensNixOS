@@ -4,8 +4,7 @@
   imports =
     [
       ./hardware-configuration.nix
-      ./boot.nix
-      ./packages.nix
+      ../common/
     ];
 
   # Bootloader.
@@ -15,7 +14,7 @@
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
-  networking.hostName = "damagedProperty"; # Define your hostname.
+  networking.hostName = "damagedLaptop"; # Define your hostname.
   networking.networkmanager.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

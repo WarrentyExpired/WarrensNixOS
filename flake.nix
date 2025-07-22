@@ -23,7 +23,11 @@
     nixosConfigurations = {
       damagedProperty = nixpkgs.lib.nixosSystem {
         specialArgs = {inherit inputs outputs;};
-        modules = [./nixos/configuration.nix];
+        modules = [./hosts/desktop];
+      };
+      damagedLaptop = nixpkgs.lib.nixosSystem {
+        specialArgs = {inherit inputs outputs;};
+        modules = [./hosts/laptop];
       };
     };
 
