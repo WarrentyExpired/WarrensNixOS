@@ -13,6 +13,7 @@
     libnotify
     unrar
     btop
+
     ### WM Apps
     swaylock-effects
     waybar
