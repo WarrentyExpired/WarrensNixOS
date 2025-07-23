@@ -1,15 +1,15 @@
 { ... }:
 {
   xdg.configFile."niri/config.kdl" = {
-    source = ./niri/config.kdl;
+    source = ./configFiles/niri/config.kdl;
     force = true;
   };
   xdg.configFile."niri/background.sh" = {
-    source = ./niri/background.sh;
+    source = ./configFiles/niri/background.sh;
     force = true;
   };
   xdg.configFile."niri/screenshot.sh" = {
-    source = ./niri/screenshot.sh;
+    source = ./configFiles/niri/screenshot.sh;
     force = true;
   };
 }

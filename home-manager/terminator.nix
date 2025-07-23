@@ -1,7 +1,7 @@
 { ... }:
 {
   xdg.configFile."terminator/config" = {
-    source = ./terminator/config;
+    source = ./configFiles/terminator/config;
     force = true;
   };
 }

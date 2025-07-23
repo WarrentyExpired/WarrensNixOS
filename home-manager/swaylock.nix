@@ -1,7 +1,7 @@
 { ... }:
 {
   xdg.configFile."swaylock/config" = {
-    source = ./swaylock/config;
+    source = ./configFiles/swaylock/config;
     force = true;
   };
 }

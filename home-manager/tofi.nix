@@ -1,7 +1,7 @@
 { ... }:
 {
   xdg.configFile."tofi/config" = {
-    source = ./tofi/config;
+    source = ./configFiles/tofi/config;
     force = true;
   };
 }

@@ -1,7 +1,7 @@
 { ... }:
 {
   xdg.configFile."helix/config.toml" = {
-    source = ./helix/config.toml;
+    source = ./configFiles/helix/config.toml;
     force = true;
   };
 }
