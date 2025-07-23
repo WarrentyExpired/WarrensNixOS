@@ -38,7 +38,15 @@
       };
       damagedLaptop = nixpkgs.lib.nixosSystem {
         specialArgs = {inherit inputs outputs;};
-        modules = [./hosts/laptop];
+        modules = [
+          ./hosts/laptop
+          home-manager.nixosModules.home-manager 
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.users.warrentyexpired = ./home-manager/home.nix;
+          }
+        ];
       };
     };
   };
