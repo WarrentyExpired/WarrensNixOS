@@ -1,27 +1,14 @@
+{ config, pkgs, ... }:
 {
-  inputs,
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
   imports = [
+    ./mako.nix
+    ./waybar.nix
   ];
 
-  nixpkgs = {
-    overlays = [
-    config = {
-      allowUnfree = true;
-      allowUnfreePredicate = _: true;
-    };
-  };
-
-  home = {
-    username = "warrentyexpired";
-    homeDirectory = "/home/warrentyexpired";
-  };
-  programs.home-manager.enable = true;
-  programs.git.enable = true;
-  systemd.user.startServices = "sd-switch";
+  home.username = "warrentyexpired";
+  home.homeDirectory = "/home/warrentyexpired";
   home.stateVersion = "25.05";
+  home.packages = with pkgs; 
+  [
+  ];
 }

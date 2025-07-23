@@ -13,16 +13,17 @@
     libnotify
     unrar
     btop
+    lm_sensors
 
     ### WM Apps
     swaylock-effects
-    waybar
+    #waybar
     swaybg
     swayidle
     xwayland-satellite
     terminator
     wlogout
-    mako
+    #mako
     tofi
     wl-clipboard
     slurp
