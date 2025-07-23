@@ -3,6 +3,8 @@
   imports = [
     ./mako.nix
     ./waybar.nix
+    ./terminator.nix
+    ./yazi.nix
   ];
 
   home.username = "warrentyexpired";
