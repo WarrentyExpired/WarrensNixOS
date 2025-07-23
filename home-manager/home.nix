@@ -1,12 +1,16 @@
 { config, pkgs, ... }:
 {
   imports = [
+    ./fastfetch.nix
+    ./helix.nix
     ./mako.nix
-    ./waybar.nix
-    ./terminator.nix
-    ./yazi.nix
-    ./tofi.nix
     ./niri.nix
+    ./swaylock.nix
+    ./terminator.nix
+    ./tofi.nix
+    ./waybar.nix
+    ./wlogout.nix
+    ./yazi.nix
   ];
 
   home.username = "warrentyexpired";

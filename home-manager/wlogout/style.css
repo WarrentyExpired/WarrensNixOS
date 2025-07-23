@@ -1,0 +1,96 @@
+* {
+    background-image: none;
+    font-size: 32px;
+    box-shadow: none;
+}
+
+
+window {
+    background-color: rgba(40,42,54, 0.75);
+}
+
+button {
+    border-radius: 10;
+    border-color: #282A36;
+    text-decoration-color: #F8F8F2;
+    color: #F8F8F2;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+
+button:hover {
+    background-color: #282A36;
+    background-size: 30%;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
+}
+
+button:hover#lock {
+    border-radius: 4px;
+    margin : 4px 0px 4px 0px;
+}
+
+button:hover#logout {
+    border-radius: 4px;
+    margin : 4px 0px 4px 0px;
+}
+
+button:hover#suspend {
+    border-radius: 4px;
+    margin : 4px 0px 4px 0px;
+}
+
+button:hover#shutdown {
+    border-radius: 4px;
+    margin : 4px 0px 4px 0px;
+}
+
+button:hover#hibernate {
+    border-radius: 4px;
+   margin : 4px 0px 4px 0px;
+}
+
+button:hover#reboot {
+    border-radius: 4px;
+    margin : 4px 0px 4px 0px;
+}
+
+#lock {
+    background-image: image(url("/home/warrentyexpired/.config/wlogout/icons/lock_b.png"));
+    border-radius: 5px 0px 0px 5px;
+    margin : 4px 0px 4px 4px;
+}
+
+#logout {
+    background-image: image(url("/home/warrentyexpired/.config/wlogout/icons/logout_b.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : 4px 0px 4px 0px;
+}
+
+#suspend {
+    background-image: image(url("/home/warrentyexpired/.config/wlogout/icons/suspend_b.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : 4px 0px 4px 0px;
+}
+
+#shutdown {
+    background-image: image(url("/home/warrentyexpired/.config/wlogout/icons/shutdown_b.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : 4px 0px 4px 0px;
+}
+
+#hibernate {
+    background-image: image(url("/home/warrentyexpired/.config/wlogout/icons/hibernate_b.png"));
+    border-radius: 0px 0px 0px 0px;
+    margin : 4px 0px 4px 0px;
+}
+
+#reboot {
+    background-image: image(url("/home/warrentyexpired/.config/wlogout/icons/reboot_b.png"));
+    border-radius: 0px 5px 5px 0px;
+    margin : 4px 4px 4px 0px;
+}
