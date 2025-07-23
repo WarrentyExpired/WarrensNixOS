@@ -15,6 +15,7 @@
   xdg-desktop-portal-gnome
   gnome-keyring
   nautilus
+  tofi
   ];
   programs.niri.enable = true;
   services.xserver.enable = true;

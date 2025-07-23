@@ -5,6 +5,7 @@
     ./waybar.nix
     ./terminator.nix
     ./yazi.nix
+    ./tofi.nix
   ];
 
   home.username = "warrentyexpired";
