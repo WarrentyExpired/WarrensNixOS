@@ -1,7 +1,6 @@
 { inputs, lib, config, pkgs, ... }:{
   imports = [
     ./boot.nix
-    ./devApps.nix
     ./windowManager.nix
     ./systemApps.nix
     ./userApps.nix

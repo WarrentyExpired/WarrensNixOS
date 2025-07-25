@@ -2,5 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     direnv
+    gnumake
+    gcc
   ];
 }
