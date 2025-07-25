@@ -123,4 +123,15 @@ if command -v fastfetch &>/dev/null; then
 else
   echo "You may wanna install fastfetch"
 fi
-. "$HOME/.local/bin/env"
+
+##########
+# For direnv
+##########
+eval "$(direnv hook bash)"
+
+##########
+# For uvx
+##########
+if [ -d $HOME/.local/bin/env ]; then
+  . "$HOME/.local/bin/env"
+fi
