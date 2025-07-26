@@ -4,5 +4,7 @@
     direnv
     gnumake
     gcc
+    libgcc
+    musl
   ];
 }
