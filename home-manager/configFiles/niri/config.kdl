@@ -197,7 +197,7 @@ binds {
   Alt+Shift+R hotkey-overlay-title="Take Area Screenshot: grim" { spawn "/home/warrentyexpired/.config/niri/screenshot.sh"; }
   Alt+Shift+E { screenshot-screen; }
   Alt+Shift+W { screenshot-window; }
-
+  Alt+Tab { spawn "/home/warrentyexpired/.config/niri/windowList.sh"; }
 
   XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
   XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }

@@ -12,4 +12,8 @@
     source = ./configFiles/niri/screenshot.sh;
     force = true;
   };
+  xdg.configFile."niri/windowList.sh" = {
+    source = ./configFiles/niri/windowList.sh;
+    force = true;
+  };
 }

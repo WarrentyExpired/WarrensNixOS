@@ -3,6 +3,7 @@
   imports = [
     ./bash.nix
     ./fastfetch.nix
+    ./fuzzel.nix
     ./helix.nix
     ./mako.nix
     ./niri.nix
