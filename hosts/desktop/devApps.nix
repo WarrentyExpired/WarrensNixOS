@@ -4,7 +4,6 @@
     direnv
     gnumake
     gcc
-    libgcc
-    musl
+    squashfsTools
   ];
 }
