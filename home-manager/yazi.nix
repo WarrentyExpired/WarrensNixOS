@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, lib, ... }:
 {
   imports = [
   ];
@@ -6,7 +6,7 @@
     enable = true;
   };
   xdg.configFile."yazi/yazi.toml" = {
-    source = ./configFiles/yazi/yazi.toml;
+    source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/NixOS/home-manager/configFiles/yazi/yazi.toml";
     force = true;
   };
 }

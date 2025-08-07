@@ -1,9 +1,8 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 {
   imports = [
     ./bash.nix
     ./fastfetch.nix
-    ./fuzzel.nix
     ./helix.nix
     ./mako.nix
     ./niri.nix
@@ -11,7 +10,6 @@
     ./terminator.nix
     ./tofi.nix
     ./waybar.nix
-    ./wezterm.nix
     ./wlogout.nix
     ./yazi.nix
   ];

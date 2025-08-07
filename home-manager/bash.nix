@@ -2,7 +2,7 @@
 {
   home.file = {
     ".bashrc" = {
-      source = ./configFiles/bashrc;
+      source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/NixOS/home-manager/configFiles/bashrc";
     };
   };
 }
