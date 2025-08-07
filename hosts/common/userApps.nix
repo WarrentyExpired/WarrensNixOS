@@ -19,6 +19,7 @@
     resvg
     mpv
     vscode-fhs
+    gimp
   ];
   programs.firefox.enable = true;
 }

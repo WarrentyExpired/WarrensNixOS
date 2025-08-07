@@ -1,5 +1,6 @@
 [global_config]
 [keybindings]
+  split_horiz = <Ctrl>S
 [profiles]
   [[default]]
     background_color = "#181818"

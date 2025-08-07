@@ -189,7 +189,7 @@ layer-rule {
 }
 
 binds {
-  Mod+Q hotkey-overlay-title="Open a Terminal: wezterm" { spawn "wezterm"; }
+  Mod+Q hotkey-overlay-title="Open a Terminal: terminator" { spawn "terminator" "-T" "Terminator"; }
   Mod+W hotkey-overlay-title="Open Firefox Broswer: firefox" { spawn "firefox"; }
   Mod+E hotkey-overlay-title="Open Nautilus File Manager: nautilux" { spawn "nautilus"; }
   Mod+D hotkey-overlay-title="Run an Application: tofi" { spawn "bash" "-c" "tofi-drun --drun-launch=true || pkill tofi-drun"; }
