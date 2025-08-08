@@ -53,6 +53,7 @@ tooltip {
     color: @red;
 }
 
+
 #taskbar,
 #idle_inhibitor,
 #clock,
@@ -67,6 +68,11 @@ tooltip {
 #custom-media,
 #custom-distro,
 #tray,
+#custom-notification {
+  border: 3px solid @flamingo;
+  background-color: @base;
+  padding: 0 10px;
+}
 #workspaces {
     background-color: @base;
     padding: 0 10px;
@@ -85,8 +91,6 @@ tooltip {
 }
 #taskbar button{
     padding: 0;
-    padding-right: 5;
-    padding-left: 5;
     background-color: @base;
     color: @text;
 }
