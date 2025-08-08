@@ -8,7 +8,7 @@
     pokeget-rs
     fastfetch
     eza
-    wezterm
+    terminator
     ffmpeg
     p7zip
     jq

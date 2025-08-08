@@ -16,7 +16,7 @@
   gnome-keyring
   nautilus
   tofi
-  fuzzel
+  swaynotificationcenter
   ];
   programs.niri.enable = true;
   services.xserver.enable = true;

@@ -4,9 +4,9 @@
     ./bash.nix
     ./fastfetch.nix
     ./helix.nix
-    ./mako.nix
     ./niri.nix
     ./swaylock.nix
+    ./swaync.nix
     ./terminator.nix
     ./tofi.nix
     ./waybar.nix
