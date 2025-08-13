@@ -5,5 +5,8 @@
     cascadia-code
     nerd-fonts.caskaydia-cove
     font-awesome
+    material-symbols
+    inter-nerdfont
+    fira-code
   ];
 }

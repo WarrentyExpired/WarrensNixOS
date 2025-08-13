@@ -1,7 +1,7 @@
 { config, pkgs, lib, ... }:
 {
-  xdg.configFile."fastfetch/config.jsonc" = {
-    source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/NixOS/home-manager/configFiles/fastfetch/config.jsonc";
+  xdg.configFile."fastfetch/" = {
+    source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/NixOS/home-manager/configFiles/fastfetch/";
     force = true;
   };
 }
