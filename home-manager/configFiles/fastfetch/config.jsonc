@@ -48,6 +48,11 @@
        "keyColor": "34",
     },
     {
+       "type": "gpu",
+       "key": "GPU",
+       "keyColor": "34",
+    },
+    {
        "type": "memory",
        "key": "RAM",
        "keyColor": "34",

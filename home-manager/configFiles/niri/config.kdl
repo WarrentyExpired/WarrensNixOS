@@ -9,9 +9,11 @@ environment {
 }
 
 // Things that get done on start up
-spawn-at-startup "waybar"
+spawn-at-startup "/home/warrentyexpired/.config/waybar/start.sh"
+spawn-at-startup "/home/warrentyexired/.config/niri/background.sh"
+spawn-at-startup "swaync"
 spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
-spawn-at-startup "qs" "-c" "DankMaterialShell"
+//spawn-at-startup "qs" "-c" "DankMaterialShell"
 spawn-at-startup "swayidle" "-w" "timeout" "300" "swaylock -f" "timeout" "420" "niri msg action power-off-monitors" "timeout" "1800" "systemctl suspend" "before-sleep" "swaylock -f"
 spawn-at-startup "/run/current-system/sw/bin/sh" "-c" "xwayland-satellite :12 &"
 spawn-at-startup "blueman-applet"
@@ -193,6 +195,7 @@ binds {
   Mod+W hotkey-overlay-title="Open Firefox Broswer: firefox" { spawn "firefox"; }
   Mod+E hotkey-overlay-title="Open Nautilus File Manager: nautilux" { spawn "nautilus"; }
   Mod+D hotkey-overlay-title="Run an Application: tofi" { spawn "bash" "-c" "tofi-drun --drun-launch=true || pkill tofi-drun"; }
+  Mod+B hotkey-overlay-title="Change Background" { spawn "/home/warrentyexpired/.config/niri/background.sh"; }
   Alt+Shift+R hotkey-overlay-title="Take Area Screenshot: grim" { spawn "/home/warrentyexpired/.config/niri/screenshot.sh"; }
   Alt+Shift+E { screenshot-screen; }
   Alt+Shift+W { screenshot-window; }

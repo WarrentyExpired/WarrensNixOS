@@ -8,5 +8,6 @@
     material-symbols
     inter-nerdfont
     fira-code
+    inter
   ];
 }
