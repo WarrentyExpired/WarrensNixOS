@@ -20,6 +20,7 @@
     mpv
     vscode-fhs
     gimp
+    micro-full
   ];
   programs.firefox.enable = true;
 }

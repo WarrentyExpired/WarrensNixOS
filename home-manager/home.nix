@@ -4,6 +4,7 @@
     ./bash.nix
     ./fastfetch.nix
     ./helix.nix
+    ./micro.nix
     ./niri.nix
     ./swaylock.nix
     ./swaync.nix

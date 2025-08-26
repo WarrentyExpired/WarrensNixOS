@@ -3,7 +3,6 @@
     "spacing": 2,
     "position": "bottom",
     "modules-left": [ "niri/workspaces" ],
-    //"modules-center": [ "niri/window" ],
     "modules-center": [ "wlr/taskbar" ],
     "modules-right": [ ],
     "niri/workspaces": {
@@ -13,10 +12,6 @@
             "default": "" 
         },
     },
-    //"niri/window": {
-    //	"format": "{title}",
-    //	"max-length": 30
-    //},
   "wlr/taskbar": {
         "format": "{icon} {title:.30}",
         "icon-size": 16,
