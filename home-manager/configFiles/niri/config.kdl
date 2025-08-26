@@ -10,7 +10,7 @@ environment {
 
 // Things that get done on start up
 spawn-at-startup "/home/warrentyexpired/.config/waybar/start.sh"
-spawn-at-startup "/home/warrentyexired/.config/niri/background.sh"
+spawn-at-startup "/home/warrentyexpired/.config/niri/background.sh"
 spawn-at-startup "swaync"
 spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
 //spawn-at-startup "qs" "-c" "DankMaterialShell"
