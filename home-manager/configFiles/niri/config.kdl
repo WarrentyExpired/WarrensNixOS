@@ -179,9 +179,14 @@ window-rule {
     open-floating true
 }
 window-rule {
-    match app-id="ClassicUO.bin.x86_64"
+    match app-id="TazUO"
     open-floating false
     open-maximized true
+}
+window-rule {
+    match app-id="ClassicUO.bin.x86_64"
+  open-floating false
+  open-maximized true
 }
 layer-rule {
     match namespace="waybar"
